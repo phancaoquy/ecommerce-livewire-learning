@@ -7,6 +7,8 @@
 
     <title>{{ $title ?? 'Livewire' }}</title>
 
+    <link rel="shortcut icon" href="{{ asset('images/favicon.png') }}" type="image/x-icon">
+
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     @livewireStyles
 </head>

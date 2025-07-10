@@ -1,4 +1,4 @@
-<div class="w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto">
+<div class="w-full h-screen max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto">
     <div class="flex h-full items-center">
         <main class="w-full max-w-md mx-auto p-6">
             <div class="mt-7 bg-white border border-gray-200 rounded-xl shadow-sm dark:bg-gray-800 dark:border-gray-700">
@@ -8,7 +8,7 @@
                         <p class="mt-2 text-sm text-gray-600 dark:text-gray-400">
                             Remember your password?
                             <a class="text-blue-600 decoration-2 hover:underline font-medium dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                                href="/login">
+                                href="/login" wire:navigate>
                                 Sign in here
                             </a>
                         </p>
